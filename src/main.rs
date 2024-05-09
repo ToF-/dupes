@@ -35,6 +35,21 @@ fn make_entry(s: String, l: u64, t: SystemTime) -> Entry {
     }
 }
 
+fn duplicate_file_sizes(unsorted_entries: EntryList) -> EntryList {
+    let mut dupes = Vec::new();
+    let mut entries = unsorted_entries.clone();
+    entries.sort_by(|a, b| { a.file_size.cmp(&b.file_size) });
+    let mut track = make_entry(String::from("fancy sentinel entry"), std::u64::MAX, SystemTime::now());
+    for entry in entries.into_iter() {
+        if entry.file_size == track.file_size {
+            dupes.push(track.clone());
+            dupes.push(entry.clone());
+        };
+        track = entry
+    };
+    dupes
+}
+
 fn get_entries_in_directory(dir_path: &str) -> io::Result<EntryList> {
     let mut entries: EntryList = Vec::new();
     for entry in WalkDir::new(dir_path).into_iter().filter_map(|e| e.ok()) {
@@ -60,8 +75,9 @@ fn get_entries_in_directory(dir_path: &str) -> io::Result<EntryList> {
 fn main() {
     let args = Args::parse();
     if let Ok(mut entries) = get_entries_in_directory(args.directory.as_str()) {
-        entries.sort_by(|a, b| { a.file_size.cmp(&b.file_size) });
-        for entry in entries.into_iter() { 
+        let dupes = duplicate_file_sizes(entries);
+        println!("{}", dupes.len());
+        for entry in dupes.into_iter() {
             println!("{}",entry.show());
         }
     }

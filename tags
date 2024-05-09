@@ -1,0 +1,152 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+Ancestor	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^struct Ancestor {$/;"	s
+Args	/Users/christophethibaut/Coding/dupes/src/main.rs	/^struct Args {$/;"	s
+COUNTER	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^        static COUNTER: AtomicUsize = ATOMIC_USIZE_INIT;$/;"	c
+Dir	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^pub struct Dir {$/;"	s
+DirEntry	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^pub struct DirEntry {$/;"	s
+DirEntryExt	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^pub trait DirEntryExt {$/;"	t
+DirList	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^enum DirList {$/;"	g
+Entry	/Users/christophethibaut/Coding/dupes/src/main.rs	/^struct Entry {$/;"	s
+EntryList	/Users/christophethibaut/Coding/dupes/src/main.rs	/^type EntryList = Vec<Entry>;$/;"	T
+Error	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/error.rs	/^pub struct Error {$/;"	s
+ErrorInner	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/error.rs	/^enum ErrorInner {$/;"	g
+FilterEntry	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^pub struct FilterEntry<I, P> {$/;"	s
+IntoIter	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    type IntoIter = IntoIter;$/;"	T
+IntoIter	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^pub struct IntoIter {$/;"	s
+Item	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    type Item = Result<DirEntry>;$/;"	T
+RecursiveResults	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^pub struct RecursiveResults {$/;"	s
+Result	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^pub type Result<T> = ::std::result::Result<T, Error>;$/;"	T
+Result	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^pub type Result<T> = result::Result<T, Box<dyn error::Error + Send + Sync>>;$/;"	T
+TRIES	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^        static TRIES: usize = 100;$/;"	c
+TempDir	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^pub struct TempDir(PathBuf);$/;"	s
+WalkDir	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^pub struct WalkDir {$/;"	s
+WalkDirOptions	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^struct WalkDirOptions {$/;"	s
+assert_no_errors	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn assert_no_errors(&self) {$/;"	f
+assert_send	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^    fn assert_send<T: Send>() {}$/;"	f
+assert_sync	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^    fn assert_sync<T: Sync>() {}$/;"	f
+broken_sym_root_dir_follow_and_root_nofollow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn broken_sym_root_dir_follow_and_root_nofollow() {$/;"	f
+broken_sym_root_dir_nofollow_and_root_nofollow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn broken_sym_root_dir_nofollow_and_root_nofollow() {$/;"	f
+broken_sym_root_dir_root_is_always_followed	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn broken_sym_root_dir_root_is_always_followed() {$/;"	f
+cause	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/error.rs	/^    fn cause(&self) -> Option<&dyn error::Error> {$/;"	f
+check_loop	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn check_loop<P: AsRef<Path>>(&self, child: P) -> Result<()> {$/;"	f
+clone	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^    fn clone(&self) -> DirEntry {$/;"	f
+close	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn close(&mut self) {$/;"	f
+contents_first	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn contents_first(mut self, yes: bool) -> Self {$/;"	f
+contents_first	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn contents_first() {$/;"	f
+depth	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^    pub fn depth(&self) -> usize {$/;"	f
+depth	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/error.rs	/^    pub fn depth(&self) -> usize {$/;"	f
+description	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/error.rs	/^    fn description(&self) -> &str {$/;"	f
+device_num	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/util.rs	/^pub fn device_num<P: AsRef<Path>>(_: P) -> io::Result<u64> {$/;"	f
+device_num	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/util.rs	/^pub fn device_num<P: AsRef<Path>>(path: P) -> io::Result<u64> {$/;"	f
+drop	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    fn drop(&mut self) {$/;"	f
+duplicate_file_sizes	/Users/christophethibaut/Coding/dupes/src/main.rs	/^fn duplicate_file_sizes(unsorted_entries: EntryList) -> EntryList {$/;"	f
+empty	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn empty() {$/;"	f
+empty_file	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn empty_file() {$/;"	f
+empty_file_follow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn empty_file_follow() {$/;"	f
+empty_follow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn empty_follow() {$/;"	f
+ents	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn ents(&self) -> &[DirEntry] {$/;"	f
+err	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^macro_rules! err {$/;"	d
+errs	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn errs(&self) -> &[Error] {$/;"	f
+file_name	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^    pub fn file_name(&self) -> &OsStr {$/;"	f
+file_type	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^    pub fn file_type(&self) -> fs::FileType {$/;"	f
+filter_entry	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn filter_entry(self, predicate: P) -> FilterEntry<Self, P> {$/;"	f
+filter_entry	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn filter_entry<P>(self, predicate: P) -> FilterEntry<Self, P>$/;"	f
+filter_entry	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn filter_entry() {$/;"	f
+fmt	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/error.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn fmt($/;"	f
+follow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn follow(&self, mut dent: DirEntry) -> Result<DirEntry> {$/;"	f
+follow_links	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn follow_links(mut self, yes: bool) -> Self {$/;"	f
+follow_root_links	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn follow_root_links(mut self, yes: bool) -> Self {$/;"	f
+from	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/error.rs	/^    fn from(walk_err: Error) -> io::Error {$/;"	f
+get_deferred_dir	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn get_deferred_dir(&mut self) -> Option<DirEntry> {$/;"	f
+get_entries_in_directory	/Users/christophethibaut/Coding/dupes/src/main.rs	/^fn get_entries_in_directory(dir_path: &str) -> io::Result<EntryList> {$/;"	f
+handle_entry	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn handle_entry($/;"	f
+imp	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^        fn imp(src: &Path, link_name: &Path) -> io::Result<()> {$/;"	f
+ino	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^    fn ino(&self) -> u64 {$/;"	f
+ino	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^    fn ino(&self) -> u64;$/;"	f
+into_io_error	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/error.rs	/^    pub fn into_io_error(self) -> Option<io::Error> {$/;"	f
+into_iter	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn into_iter(self) -> IntoIter {$/;"	f
+into_path	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^    pub fn into_path(self) -> PathBuf {$/;"	f
+io_error	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/error.rs	/^    pub fn io_error(&self) -> Option<&io::Error> {$/;"	f
+is_hidden	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^fn is_hidden(entry: &DirEntry) -> bool {$/;"	f
+is_same	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn is_same(&self, child: &Handle) -> io::Result<bool> {$/;"	f
+is_same_file_system	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn is_same_file_system(&mut self, dent: &DirEntry) -> Result<bool> {$/;"	f
+itry	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^macro_rules! itry {$/;"	d
+join	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn join<P: AsRef<Path>>(&self, path: P) -> PathBuf {$/;"	f
+loop_ancestor	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/error.rs	/^    pub fn loop_ancestor(&self) -> Option<&Path> {$/;"	f
+main	/Users/christophethibaut/Coding/dupes/src/main.rs	/^fn main() {$/;"	f
+make_entry	/Users/christophethibaut/Coding/dupes/src/main.rs	/^fn make_entry(s: String, l: u64, t: SystemTime) -> Entry {$/;"	f
+many_dirs	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn many_dirs() {$/;"	f
+many_files	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn many_files() {$/;"	f
+many_mixed	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn many_mixed() {$/;"	f
+max_depth	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn max_depth(mut self, depth: usize) -> Self {$/;"	f
+max_depth_0	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn max_depth_0() {$/;"	f
+max_depth_1	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn max_depth_1() {$/;"	f
+max_depth_2	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn max_depth_2() {$/;"	f
+max_open	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn max_open(mut self, mut n: usize) -> Self {$/;"	f
+metadata	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^    pub fn metadata(&self) -> Result<fs::Metadata> {$/;"	f
+metadata_internal	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^    fn metadata_internal(&self) -> Result<fs::Metadata> {$/;"	f
+min_depth	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn min_depth(mut self, depth: usize) -> Self {$/;"	f
+min_depth_1	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn min_depth_1() {$/;"	f
+min_depth_2	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn min_depth_2() {$/;"	f
+min_max_depth_diff_0	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn min_max_depth_diff_0() {$/;"	f
+min_max_depth_diff_1	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn min_max_depth_diff_1() {$/;"	f
+min_max_depth_diff_nada	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn min_max_depth_diff_nada() {$/;"	f
+mkdirp	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn mkdirp<P: AsRef<Path>>(&self, path: P) {$/;"	f
+nested	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn nested() {$/;"	f
+nested_small_max_open	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn nested_small_max_open() {$/;"	f
+new	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn new(dent: &DirEntry) -> io::Result<Ancestor> {$/;"	f
+new	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn new<P: AsRef<Path>>(root: P) -> Self {$/;"	f
+new	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn new() -> Result<TempDir> {$/;"	f
+next	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn next(&mut self) -> Option<Result<DirEntry>> {$/;"	f
+one_dir	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn one_dir() {$/;"	f
+one_dir_one_file	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn one_dir_one_file() {$/;"	f
+one_file	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn one_file() {$/;"	f
+path	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^    pub fn path(&self) -> &Path {$/;"	f
+path	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/error.rs	/^    pub fn path(&self) -> Option<&Path> {$/;"	f
+path	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn path(&self) -> &Path {$/;"	f
+path_is_symlink	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/dent.rs	/^    pub fn path_is_symlink(&self) -> bool {$/;"	f
+paths	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn paths(&self) -> Vec<PathBuf> {$/;"	f
+pop	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn pop(&mut self) {$/;"	f
+push	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn push(&mut self, dent: &DirEntry) -> Result<()> {$/;"	f
+regression_skip_current_dir	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn regression_skip_current_dir() {$/;"	f
+run_recursive	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn run_recursive<I>(&self, it: I) -> RecursiveResults$/;"	f
+same_file_system	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn same_file_system(mut self, yes: bool) -> Self {$/;"	f
+same_file_system	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn same_file_system() {$/;"	f
+send_sync_traits	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn send_sync_traits() {$/;"	f
+show	/Users/christophethibaut/Coding/dupes/src/main.rs	/^    fn show(&self) -> String {$/;"	f
+siblings	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn siblings() {$/;"	f
+skip_current_dir	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn skip_current_dir(&mut self) {$/;"	f
+skip_current_dir	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn skip_current_dir() {$/;"	f
+skippable	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    fn skippable(&self) -> bool {$/;"	f
+sort_by	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn sort_by<F>(mut self, cmp: F) -> Self$/;"	f
+sort_by	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sort_by() {$/;"	f
+sort_by_file_name	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn sort_by_file_name(self) -> Self {$/;"	f
+sort_by_file_name	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sort_by_file_name() {$/;"	f
+sort_by_key	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/lib.rs	/^    pub fn sort_by_key<K, F>(self, mut cmp: F) -> Self$/;"	f
+sort_by_key	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sort_by_key() {$/;"	f
+sort_max_open	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sort_max_open() {$/;"	f
+sorted_ents	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn sorted_ents(&self) -> Vec<DirEntry> {$/;"	f
+sorted_paths	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn sorted_paths(&self) -> Vec<PathBuf> {$/;"	f
+source	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/error.rs	/^    fn source(&self) -> Option<&(dyn error::Error + 'static)> {$/;"	f
+sym_dir_follow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_dir_follow() {$/;"	f
+sym_dir_nofollow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_dir_nofollow() {$/;"	f
+sym_dir_self_loop_io_error	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_dir_self_loop_io_error() {$/;"	f
+sym_file_follow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_file_follow() {$/;"	f
+sym_file_nofollow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_file_nofollow() {$/;"	f
+sym_file_self_loop_io_error	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_file_self_loop_io_error() {$/;"	f
+sym_loop_detect	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_loop_detect() {$/;"	f
+sym_noloop	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_noloop() {$/;"	f
+sym_root_dir_follow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_root_dir_follow() {$/;"	f
+sym_root_dir_nofollow_root_follow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_root_dir_nofollow_root_follow() {$/;"	f
+sym_root_dir_nofollow_root_nofollow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_root_dir_nofollow_root_nofollow() {$/;"	f
+sym_root_file_follow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_root_file_follow() {$/;"	f
+sym_root_file_nofollow	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_root_file_nofollow() {$/;"	f
+sym_self_loop_no_error	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/recursive.rs	/^fn sym_self_loop_no_error() {$/;"	f
+symlink_dir	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn symlink_dir<P1: AsRef<Path>, P2: AsRef<Path>>($/;"	f
+symlink_file	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn symlink_file<P1: AsRef<Path>, P2: AsRef<Path>>($/;"	f
+tmp	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn tmp() -> Dir {$/;"	f
+touch	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn touch<P: AsRef<Path>>(&self, path: P) {$/;"	f
+touch_all	/Users/christophethibaut/.cargo/registry/src/index.crates.io-6f17d22bba15001f/walkdir-2.5.0/src/tests/util.rs	/^    pub fn touch_all<P: AsRef<Path>>(&self, paths: &[P]) {$/;"	f
