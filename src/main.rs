@@ -1,4 +1,4 @@
-
+use std::fs::remove_file;
 use clap::{Parser};
 use std::fs;
 use std::io;
@@ -11,6 +11,8 @@ use walkdir::WalkDir;
 struct Args {
     #[arg(short, long, default_value_t = String::from("."))]
     directory: String,
+    #[arg(short, long, default_value_t = false)]
+    remove: bool,
 }
 
 #[derive(Clone, Debug)]
@@ -125,8 +127,18 @@ fn main() {
     let args = Args::parse();
     if let Ok(entries) = get_file_entries_in_directory(args.directory.as_str()) {
         let dupes = duplicate_file(entries);
-        for entry in dupes.into_iter() {
-            println!("{}",entry.show());
+        for pair in dupes.clone().into_iter() {
+            println!("{}",pair.show());
+        }
+        if args.remove {
+            for pair in dupes.into_iter() {
+                let entry = pair.entry_b;
+                println!("removing file {}", entry.file_path);
+                match remove_file(entry.file_path) {
+                    Ok(()) => {},
+                    Err(err) => eprintln!("{}", err),
+                }
+            }
         }
     }
 }
